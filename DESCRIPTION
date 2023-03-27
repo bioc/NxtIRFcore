@@ -1,7 +1,7 @@
 Package: NxtIRFcore
 Title: Core Engine for NxtIRF: a User-Friendly Intron Retention and Alternative 
   Splicing Analysis using the IRFinder Engine
-Version: 1.5.0
+Version: 1.5.1
 Date: 2022-10-25
 Authors@R: c(person("Alex Chit Hei", "Wong", email="a.wong@centenary.org.au", 
 		role=c("aut", "cre", "cph")),
@@ -74,8 +74,10 @@ Collate: AllImports.R
 	Filters.R
 	ASE-methods.R
 	NxtIRFcore-package.R
+	zzz.R
 Encoding: UTF-8
 RoxygenNote: 7.1.2
 URL: https://github.com/alexchwong/NxtIRFcore
 BugReports: https://support.bioconductor.org/
 Config/testthat/edition: 3
+PackageStatus: Deprecated
